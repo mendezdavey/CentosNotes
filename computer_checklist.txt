@@ -1,0 +1,7 @@
+Things to do today March 31, 2016
+1. Make sure that this computer is configured correctly
+I might need to reinstall windows7 
+2. Install Netbeans
+3. Research how to launch a web server and connect to Netbeans.
+This is going to be hard
+
