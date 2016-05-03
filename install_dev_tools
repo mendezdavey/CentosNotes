@@ -1,0 +1,11 @@
+How to install Development tools for Centos7 5-1-2016
+su -c "yum groupinstall development-tools"
+make: cc: Command not found make: *** [ex1] Error 127
+The fix
+https://access.redhat.com/discussions/1262603
+[root@localhost rpmbuild]# yum groups mark install "Development Tools"
+
+[root@localhost rpmbuild]# yum groups mark convert "Development Tools"
+
+[root@localhost rpmbuild]# yum groupinstall "Development Tools"
+ 

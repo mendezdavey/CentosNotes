@@ -1,0 +1,8 @@
+How to install xflux on centos7 5-2-2016
+Download and install flux.tgz
+$tar -xvzf xflux*.tgz
+$rm - rf xflux*.tgz
+$sudo cp xflux /usr/bin/ #run xflux from anywhere.
+$sudo chmod 755 /usr/bin/xflux #give permissions to users to run xflux
+$xflux -z <zipcode> # enter zipcode
+
