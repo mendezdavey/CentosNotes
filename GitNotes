@@ -1,4 +1,4 @@
-GIT NOTES 4-21-2016
+GIT NOTES 4-22-2016
 
 Creating a branch
 git branch <branch name>
@@ -8,4 +8,7 @@ Checkout a Branch
 git checkout <branch name>
 Push a branch to github.com
 git push origin <branch name>
-
+Pull repository
+git pull
+Push repository 
+git push
